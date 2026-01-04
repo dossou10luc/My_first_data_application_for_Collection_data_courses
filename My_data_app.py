@@ -501,46 +501,6 @@ elif  Choices == 'Dashbord of the data':
         plt.xticks(rotation=45, ha="right")
         st.pyplot(fig4)
 
-    #with col1:
-     #   plot1= plt.figure(figsize=(11,7))
-      #  color = (0.2, # redness
-       #          0.4, # greenness
-        #         0.2, # blueness
-         #        0.6 # transparency
-          #       )
-        #plt.bar(df1.marque.value_counts()[:5].index, df1.marque.value_counts()[:5].values, color = color)
-       # "plt.title('cinq marque de vehicules les plus vendus')
-        #plt.xlabel('marque')
-        #st.pyplot(plot1)
-
-    #with col2:
-     #   plot2 = plt.figure(figsize=(11,7))
-      #  color = (0.5, # redness
-       #  0.7, # greenness
-        # 0.9, # blueness
-         #0.6 # transparency
-      #   )
-      #  plt.bar(df2.marque.value_counts()[:5].index, df2.marque.value_counts()[:5].values, color = color)
-       # plt.title('cinq marque de vehicules les plus vendus')
-        #plt.xlabel('marque')
-        #st.pyplot(plot2)
-    
-    #col3, col4= st.columns(2)
-
-    #with col3:
-     #   plot3= plt.figure(figsize=(11,7))
-      #  sns.lineplot(data=df1, x="annee", y="prix", hue="etat")
-       # plt.title('Variation du prix suivant les années des catégories de vehicules')
-        #st.pyplot(plot3)
-
-  #  with col4:
-   #     plot4 = plt.figure(figsize=(11,7))
-    #    sns.lineplot(data=df2, x="annee", y="prix", hue="etat")
-     #   plt.title('Variation du prix suivant les années des catégories de motos')
-      #  st.pyplot(plot4)
-
-
-
 else :
     # components.html("""
     # <iframe src="https://ee.kobotoolbox.org/i/y3pfGxMz" width="800" height="1100"></iframe>
